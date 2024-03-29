@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/Font/Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+/* navbar css */
+.Nav {
+
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.18);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(6.1px);
+}
+.repsonsiveMenu {
+    border-radius: 0 0 16px 16px;
+    background: #2A2A2A;
+
+    /* navbar-glass */
+    backdrop-filter: blur(20px);
+  }
+  button:hover,
+button:active {
+  background-color: #208c0b; /* darker shade of green */
+}
