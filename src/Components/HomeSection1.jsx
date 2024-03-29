@@ -48,11 +48,11 @@ const HomeSection1 = () => {
             Özəl günlər, Bayramlar, Məzuniyyətlər və daha çox xatirələrinizi
             Fotory ilə paylaşın.
           </p>
-          <button className=" mt-6 lg:mt-11 w-[160px] p-[16px] bg-[#30980D] rounded-[12px] outline-none  flex items-center justify-center "  >
             <Link  target="_blank" to='https://wa.me/994553091509' className="text-whiteColor font-bold font-int leading-5 text-[17px]">
+          <button className=" mt-6 lg:mt-11 w-[160px] p-[16px] bg-[#30980D] rounded-[12px] outline-none  flex items-center justify-center "  >
               Sifariş et!
-            </Link>
           </button>
+            </Link>
         </div>
         <div className="right flex flex-col gap-3 ">
           <div className="box1-3 flex items-center gap-4">
